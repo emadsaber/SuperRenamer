@@ -1,0 +1,3 @@
+/media/emad/Data/Work/Projects/SheikhAbdoRenamer/SheikhAbdoRenamer/obj/Debug/SheikhAbdoRenamer.Form1.resources
+/media/emad/Data/Work/Projects/SheikhAbdoRenamer/SheikhAbdoRenamer/obj/Debug/SheikhAbdoRenamer.Properties.Resources.resources
+/media/emad/Data/Work/Projects/SheikhAbdoRenamer/SheikhAbdoRenamer/obj/Debug/SheikhAbdoRenamer.exe

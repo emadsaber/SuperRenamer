@@ -1,0 +1,9 @@
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\Debug\SheikhAbdoRenamer.exe.config
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.Form1.resources
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.Properties.Resources.resources
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.csproj.GenerateResource.Cache
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\Debug\SheikhAbdoRenamer.exe
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\Debug\SheikhAbdoRenamer.pdb
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.exe
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.pdb
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\Debug\SheikhAbdoRenamer.csprojResolveAssemblyReference.cache

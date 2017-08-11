@@ -1,0 +1,8 @@
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.exe.config
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.exe
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.pdb
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.Form1.resources
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.Properties.Resources.resources
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.csproj.GenerateResource.Cache
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.exe
+D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.pdb
