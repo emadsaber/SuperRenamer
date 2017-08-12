@@ -37,11 +37,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lstFilesNames = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.btnAbout = new System.Windows.Forms.Button();
-            this.btnChangeLanguage = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnAbout = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,6 +94,7 @@
             this.txtSourceFolder.Name = "txtSourceFolder";
             this.txtSourceFolder.Size = new System.Drawing.Size(253, 20);
             this.txtSourceFolder.TabIndex = 1;
+            this.txtSourceFolder.Leave += new System.EventHandler(this.txtSourceFolder_Leave);
             // 
             // txtDestinationFolder
             // 
@@ -122,7 +122,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.Size = new System.Drawing.Size(92, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Destination Folder";
             // 
@@ -145,7 +145,6 @@
             this.panel1.Controls.Add(this.btnRename);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.btnChangeLanguage);
             this.panel1.Controls.Add(this.btnAbout);
             this.panel1.Controls.Add(this.btnBrowseForDestinationFolder);
             this.panel1.Controls.Add(this.txtSourceFolder);
@@ -155,20 +154,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(461, 330);
             this.panel1.TabIndex = 0;
-            // 
-            // btnClear
-            // 
-            this.btnClear.AccessibleDescription = "Clear the selected paths ya sheikh";
-            this.btnClear.AccessibleName = "Clear all fields";
-            this.btnClear.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnClear.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.btnClear.Location = new System.Drawing.Point(54, 152);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(90, 67);
-            this.btnClear.TabIndex = 6;
-            this.btnClear.Text = "&Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnExit
             // 
@@ -184,31 +169,19 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnAbout
+            // btnClear
             // 
-            this.btnAbout.AccessibleDescription = "About Program";
-            this.btnAbout.AccessibleName = "About Program";
-            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAbout.Location = new System.Drawing.Point(240, 295);
-            this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(75, 23);
-            this.btnAbout.TabIndex = 9;
-            this.btnAbout.Text = "&About...";
-            this.btnAbout.UseVisualStyleBackColor = true;
-            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
-            // 
-            // btnChangeLanguage
-            // 
-            this.btnChangeLanguage.AccessibleDescription = "Change program\'s language";
-            this.btnChangeLanguage.AccessibleName = "Change program\'s language";
-            this.btnChangeLanguage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnChangeLanguage.Location = new System.Drawing.Point(321, 295);
-            this.btnChangeLanguage.Name = "btnChangeLanguage";
-            this.btnChangeLanguage.Size = new System.Drawing.Size(126, 23);
-            this.btnChangeLanguage.TabIndex = 10;
-            this.btnChangeLanguage.Text = "C&hange Language...";
-            this.btnChangeLanguage.UseVisualStyleBackColor = true;
-            this.btnChangeLanguage.Click += new System.EventHandler(this.btnChangeLanguage_Click);
+            this.btnClear.AccessibleDescription = "Clear the selected paths ya sheikh";
+            this.btnClear.AccessibleName = "Clear all fields";
+            this.btnClear.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnClear.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.btnClear.Location = new System.Drawing.Point(54, 152);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(90, 67);
+            this.btnClear.TabIndex = 6;
+            this.btnClear.Text = "&Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // label3
             // 
@@ -216,9 +189,22 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Location = new System.Drawing.Point(0, 317);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 13);
+            this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 11;
             this.label3.Text = "Version: 1.0.0";
+            // 
+            // btnAbout
+            // 
+            this.btnAbout.AccessibleDescription = "About Program";
+            this.btnAbout.AccessibleName = "About Program";
+            this.btnAbout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAbout.Location = new System.Drawing.Point(372, 304);
+            this.btnAbout.Name = "btnAbout";
+            this.btnAbout.Size = new System.Drawing.Size(75, 23);
+            this.btnAbout.TabIndex = 9;
+            this.btnAbout.Text = "&About...";
+            this.btnAbout.UseVisualStyleBackColor = true;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // Form1
             // 
@@ -252,7 +238,6 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnAbout;
-        private System.Windows.Forms.Button btnChangeLanguage;
         private System.Windows.Forms.Label label3;
     }
 }

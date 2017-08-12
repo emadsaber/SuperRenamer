@@ -6,3 +6,14 @@ D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAb
 D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.csproj.GenerateResource.Cache
 D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.exe
 D:\Work\Self_Study\C#\SheikhAbdoRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.pdb
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.csprojResolveAssemblyReference.cache
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.Form1.resources
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.Properties.Resources.resources
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.csproj.GenerateResource.Cache
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.exe
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\obj\x86\Debug\SheikhAbdoRenamer.pdb
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\bin\x86\Debug\shlwapi.dll
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.exe.config
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.exe
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\bin\x86\Debug\SheikhAbdoRenamer.pdb
+D:\Repos\SuperRenamer\SheikhAbdoRenamer\bin\x86\Debug\Logical Sort.dll
